@@ -1,0 +1,97 @@
+body {
+  background-color:  #de6ce0;
+}
+/*список ссылок по страницам сайта*/
+.menu li {
+  font-style: italic;
+  font-size: 20px;
+  list-style-type: none;
+  background-color: #20f543;
+  padding: 10px;
+}
+/*ссылки по страницам*/
+.menu li a{
+  color: ​ ​ #cd7f32;
+
+}
+h2,h1,h3 {
+  background-color: #808080;/*заливка заголовков*/
+
+}
+
+#footer { /*редактирование подвала*/
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #39b54a; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+  }
+  /*Ссылка внизу страницы*/
+  .link{
+    text-decoration: none;
+  }
+/*список на главной (юмор)*/
+.fun li {
+  font-style: italic;/*стиль шрифта*/
+  font-size: 20px;
+  list-style-type: none;/*убираем точки в списке*/
+}
+/*Гифки на главной*/
+.scale {
+  padding: 50px; /* создаем поле вокруг картинки*/
+  background-color: #7d4aed;/* делаем из этого поля рамку другого цвета*/
+  position: relative;/*открепляем картинку от одного места - это позволит ее двигать*/
+  left: 500px;/*так как двигать вправо задаем отступ слева*/
+
+}
+/*Гифки в каталоге*/
+.catalog {
+  padding: 20px;
+  border: 5px solid green;/*создание рамки*/
+  float: right;/*делаем чтобы картинка стояла справо от текста (обтекала его)*/
+}
+/*работа над параграфами туров*/
+#p_1_tur{
+  background-image: url(img/fon_1_tur.jpg);
+  background-size: 50%;
+  background-position: left;
+  background-repeat: no-repeat;
+  color: #ada8ad;
+  font-size: 15px;
+}
+#p_2_tur{
+  background-image: url(img/fon_2_tur.jpg);
+  background-size: 50%;
+  background-position: left;
+  background-repeat: no-repeat;
+  color: #1f1c1f;
+  font-size: 15px;
+}
+#p_3_tur{
+  background-image: url(img/fon_3_tur.jpg);
+  background-size: 50%;
+  background-position: left;
+  background-repeat: no-repeat;
+  color: #1f1c1f;
+  font-size: 15px;
+}
+/*работа на списками "вас ждет" в каталоге*/
+.list_catalog li{
+  width: 20px;
+  height: 20px;
+  list-style-type: georgian;
+  padding: 15px;
+  text-align: center;
+  border: solid green;
+  border-width: 5px;
+}
+/*работа над полями ввода*/
+input[type="text"] {
+  width: 150px;
+  height: 30px;
+}
+input[type="password"]{
+  width: 150px;
+  height: 30px;
+}
